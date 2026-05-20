@@ -1,0 +1,41 @@
+# ============================================================
+# requirements.txt — ConvNeXt Coral Health Classification
+# Python 3.12+  |  venv: coral-convnext
+# ============================================================
+
+# --- Deep Learning ---
+torch==2.9.1                  # Versi stabil terbaru (Rilis Mei 2026)
+torchvision==0.24.1            # Sesuai pasangan kompatibilitas torch 2.12
+grad-cam==1.5.4                # pytorch-grad-cam terbaru untuk visualisasi model
+
+# --- Data & Scientific Computing ---
+numpy==2.2.6                  # Versi stabil matang yang sangat aman untuk Python 3.12
+pandas==3.0.2                  # Optimalisasi bugfix untuk Python 3.12+
+
+# --- Image Augmentation & Processing ---
+albumentations==2.0.8         # Versi stabil terbaru dengan peningkatan performa augmentasi
+opencv-python==4.12.0.88       # OpenCV biner stabil terbaru
+Pillow==12.1.0                 # Perbaikan manajemen memori gambar pada Python 3.12
+
+# --- Model Evaluation ---
+scikit-learn==1.8.0            # Metrik evaluasi klasifikasi stabil terbaru
+
+# --- Visualization ---
+matplotlib==3.10.9              # Plotting backend stabil terbaru
+seaborn==0.13.2                # Visualisasi matriks korelasi / confusion matrix
+
+# --- Experiment Monitoring ---
+tensorboard==2.18.0            # Monitoring training loss & akurasi terbaru
+
+# --- Development & Notebooks ---
+jupyterlab==4.5.6              # Environment notebook stabil terbaru
+ipywidgets==8.1.5              # Widget interaktif di JupyterLab
+
+# --- Config & Utilities ---
+pyyaml==6.0.3                  # Parsing config.yaml (versi khusus perbaikan Python 3.12)
+tqdm==4.67.3                   # Progress bar training loop
+
+# ============================================================
+# Tkinter sudah built-in di Python 3.12+ (tidak perlu install)
+# Untuk verifikasi: python -m tkinter
+# ============================================================
